@@ -1,15 +1,20 @@
 body{
- background-color:palegoldenrod;;
+ background-color:palegoldenrod;
+ 
 }
 
 .container{
     height: 95vh;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
 }
 .input{
    /* padding: 380px; */
-   display: flex;
-   gap:10px;
+  display: flex;
+  gap:2rem;
 }
 input{
     width:400px;
@@ -29,8 +34,15 @@ button{
     box-shadow: 1px 1px 1px 1px;
 }
 .text{
-    display: flex;
-    flex-direction: column;
-    margin-top:300px;
-    margin-left: 400px;
+  margin-right: 5rem;
+}
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.video{
+    margin-left: 5rem;
+
 }
