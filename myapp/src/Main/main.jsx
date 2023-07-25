@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player/youtube';
 function Main() {
   const [url, setUrl] = useState("");
   const[text,setText] =useState("")
-  var regex =
+   let regex =
     /^(?:https?:\/\/)?(?:m\.|www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
 
 
