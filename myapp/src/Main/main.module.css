@@ -1,48 +1,45 @@
-body{
- background-color:palegoldenrod;
- 
+body {
+  background-color: palegoldenrod;
 }
 
-.container{
-    height: 95vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:3rem;
-}
-.input{
-  
+.container {
+  height: 95vh;
   display: flex;
-  gap:2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
-input{
-    width:400px;
-    height:40px;
-    border-radius: 8px;
-    background-color: rgb(226, 243, 243);
-    border-style: none;
-    box-shadow: 2px 2px 2px 2px;
+.input {
+  display: flex;
+  gap: 2rem;
 }
-button{
-    height:40px;
-    width:100px;
-    border-radius: 8px;
-    background-color: rgb(80, 148, 160);
-    font-size: larger;
-    color: white;
-    box-shadow: 1px 1px 1px 1px;
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(226, 243, 243);
+  border-style: none;
+  box-shadow: 2px 2px 2px 2px;
 }
-.text{
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: rgb(80, 148, 160);
+  font-size: larger;
+  color: white;
+  box-shadow: 1px 1px 1px 1px;
+}
+.text {
   margin-right: 5rem;
 }
-.content{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
-.video{
-    margin-left: 5rem;
-
+.video {
+  margin-left: 5rem;
 }

@@ -1,16 +1,13 @@
-import Main from './Main/main'
-import './App.css'
-import React from 'react'
-
-
+import Main from "./Main/main";
+import "./App.css";
+import React from "react";
 
 function App() {
-  
   return (
     <>
-    <Main/>
+      <Main />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
