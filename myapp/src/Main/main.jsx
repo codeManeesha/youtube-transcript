@@ -54,7 +54,7 @@ function Main() {
 
         <div>
           <button type="submit" >
-            Go
+            Submit
           </button>
          
          
